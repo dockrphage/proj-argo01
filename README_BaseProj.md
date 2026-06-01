@@ -1,4 +1,14 @@
-Below implimentation steps is not the final refined one but the original one I used as the starting point. You may get minor blockers and errors which is requried as part of the learning WF. I'll later post the updated, refined implimentation steps as a reference. Please note, the refined implimentation steps offer fewer learning opportunities and should only be used as a reference.
+Below implimentation steps is not the final refined one but the original one I used as the starting point. You may get some blockers/ errors which imo is requried as part of the learning WF. 
+
+Please note, the refined implimentation steps offer fewer challengs/ learning opportunities. Nevertheless, I'll upload the same as a separate README.
+
+Prerequisites: A working k8s cluster w helm and optionally metallb & nginx-ingress.
+
+Considering cost & convenience, my preferred env for k8s is k8s-in-vagrant-vms, can be setup/ reset in a few clicks at $0 cost. 
+The setup scripts are available in at 
+https://github.com/dockrphage/My-Scripts/tree/main/k8s/k8s-v1-36-Vag
+
+
 
 This project demonstrates **GitOps maturity** from basic CD to progressive delivery, multi-cluster management, and production hardening - exactly what senior DevOps roles look for.
 
