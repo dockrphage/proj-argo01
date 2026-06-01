@@ -1,0 +1,5 @@
+apiVersion: kustomize.toolkit.istio/v1beta1
+kind: Kustomization
+resources:
+- deployment.yaml
+- service.yaml
